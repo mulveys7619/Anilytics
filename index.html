@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Find the cdn links at https://firebase.google.com/docs/web/setup#expandable-8-->
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit"/>
+    <meta charset="utf-8" />
+    <title>Anilytics Home</title>
+
+    <link rel="stylesheet" href="CSS/NavBar.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/index.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/instant-search.css" type="text/css">
+</head>
+<body>
+    <!--Navigation Bar Outline-->
+    <header>
+        <div class="container">
+            <!--Logo image with a link that takes user back to the homepage-->
+            <a href="index.html">
+            <img src="Media/Actual/Navigation/AnilyticsLogo.png" alt="logo" class="logo"/>
+            </a>
+
+            <!--Connected group of the categories-->
+            <nav>
+                <!--List of categories on nav bar-->
+                <ul>
+                    <li><a href="#">Rankings</a></li>
+                    <li><a href="#">Series</a></li>
+                    <li><a href="#">Seasonal</a></li>
+                    <li><a href="#">User Lists</a></li>
+                    <li><a href="#">Groups</a></li>
+                    <li><a href="#">Trending</a></li>
+                    
+
+                </ul>
+            </nav>
+            <div class="siteButtons">
+                <ul>
+                    <li><button type="button">Ads<br>On/Off</button></li>
+                    <li><button type="button">Donate</button></li>
+                    
+                </ul>
+            </div>
+            <!-- search bar -->
+            <div id="searchGeneral" class="instant-search">
+                <!-- area for user input -->
+                <div class="instant-search__input-container">
+                    <input id="search-input-area" class="instant-search__input" type="text" spellcheck="false" placeholder="Explore">
+                    <!-- search bar icon -->
+                    <button id="search-icon-btn"><i class ="material-icons instant-search__icon md-48">search</i></button>
+                </div>
+                <!-- results container -->
+                <div class="instant-search__results-container">
+                    <!-- individual results -->
+                    <a href ="#" class="instant-search__result">
+                        <!-- Series thumbnail, user profile icon, or post media -->
+                        <div class="instant-search__thumbnail-icon"><img src="Media/PlaceHolders/Thumbnail/AoT.jpg" alt="AoT-Poster"> </div>
+                        <!-- Series title, username, or post title -->
+                        <div class="instant-search__title-username">Attack on Titan</div>
+                        <p class="instant-search__synopsis-header">Synopsis</p>
+                        <p class="instant-search__synopsis-body">This is where the synopsis is displayed</p>
+                        <p class="instant-search__average-score-header">Avg. Score</p>
+                        <p class="instant-search__average-score-value">8.92</p>
+                        <p class="instant-search__user-score-header">Your Score</p>
+                        <p class="instant-search__user-score-value">9</p>
+
+                    </a>
+                    <a href ="#" class="instant-search__result">
+                        <!-- Series thumbnail, user profile icon, or post media -->
+                        <div class="instant-search__thumbnail-icon"><img src="Media/PlaceHolders/Thumbnail/ASilentVoice.jpg" alt="AoT-Poster"> </div>
+                        <!-- Series title, username, or post title -->
+                        <div class="instant-search__title-username">A Silent Voice</div>
+                        <p class="instant-search__synopsis-header">Synopsis</p>
+                        <p class="instant-search__synopsis-body">This is where the synopsis is displayed</p>
+                        <p class="instant-search__average-score-header">Avg. Score</p>
+                        <p class="instant-search__average-score-value">9.56</p>
+                        <p class="instant-search__user-score-header">Your Score</p>
+                        <p class="instant-search__user-score-value">10</p>
+                        <p class="instant-search__genre-header">Genres: </p>
+                        <p class="instant-search__genre-list">Drama, Slice of Life</p>
+
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <ScrollUp>
+        <button id="btnScrollToTop">
+            <i class="material-icons">arrow_upward</i>
+            
+        </button>
+    </ScrollUp>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <p>bottom</p>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+
+
+
+<!-- Initialize Firebase -->
+<script src="JS/FirebaseInit.js"></script>
+<script src="JS/static.js"></script>
+<script>
+    
+    
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+      // // The Firebase SDK is initialized and available here!
+      //
+      // firebase.auth().onAuthStateChanged(user => { });
+      // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+      
+      // firebase.functions().httpsCallable('yourFunction')().then(() => { });
+      // firebase.messaging().requestPermission().then(() => { });
+      // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+      // firebase.analytics(); // call to activate
+      // firebase.analytics().logEvent('tutorial_completed');
+      // firebase.performance(); // call to activate
+      //
+      // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+      try {
+        let app = firebase.app();
+        let features = [
+        //   'auth', 
+        //   'database', 
+           'firestore',
+        //   'functions',
+        //   'messaging', 
+        //   'storage', 
+        //   'analytics', 
+        //   'remoteConfig',
+        //   'performance',
+        ].filter(feature => typeof app[feature] === 'function');
+        console.log(`Firebase SDK loaded with ${features.join(', ')}`);
+      } catch (e) {
+        console.log( 'Error loading the Firebase SDK, check the console.');
+        console.error(e);
+      } 
+    });
+  </script>
+</body>
+</html>

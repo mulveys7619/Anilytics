@@ -1,0 +1,119 @@
+﻿
+/*Styling for the overall page*/
+body {
+    margin: 0;
+    
+    
+    /*Changes color for the main background of the page*/
+    background: #222;
+}
+/*Styling for the Navigation Bar Outline*/
+header {
+    position: sticky;
+    top: 0;
+    
+    box-shadow: 0px 7px 5px black;
+    height: 5rem;
+    background: #4c0080 ;
+    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*Styles for elements in the container class*/
+.header-container {
+    
+    position: sticky;
+    border-radius: 50px;
+}
+/*Styles for the logo image*/
+.logo{
+    float: left;
+    
+    
+}
+/*Styles for the connected group of categories*/
+nav{
+    float: left;
+    font-weight: 600;
+}
+/*Styles for the list of categories in nav*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+nav li {
+    position: relative;
+    top: 20px;
+    font-family: "Kanit";
+    font-size: 25px;
+    font-weight: 800;
+    font-style: normal;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 0;
+    padding-bottom: 50px;
+    
+    }
+
+nav ul li > a:hover::before {
+    width: 100%;
+        
+        
+}
+
+nav ul li > a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+nav ul li > a::before
+{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 55.5%;
+    width: 0%;
+    transition: all ease-in-out .25s;
+    
+
+}
+.siteButtons ul
+{
+    margin: 0;
+    list-style:none;
+    display: grid;
+    float:right;
+    
+    
+    
+
+}
+
+.siteButtons button
+{
+    font-family: "Kanit";
+    font-size: 10px;
+    font-weight: 800;
+    font-style: normal;
+    
+    background: none;
+    color:#ffffff;
+    padding: 0 25px 10px;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.siteButtons button:hover
+{
+    background-color: #2e004d;
+}
