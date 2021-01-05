@@ -1,12 +1,10 @@
 .instant-search
 {
     position: relative;
-    max-width: 450px;
-    height: 250px;
+    
     
     
 }
-
 .instant-search,
 .instant-search__input
 {
@@ -65,7 +63,7 @@
 .instant-search,
 .instant-search__input-container
 {
-    /* width: 450px; */
+    width: 450px;
     border-radius: 10px;
    
 }
@@ -113,7 +111,8 @@
 }
 .instant-search__results-container
 {
-    max-height: 250px;
+    max-height: 500px;
+    width: fit-content;
     overflow-y: auto;
     /* visibility: hidden; */
     /* opacity: 0; */
@@ -127,13 +126,15 @@
 }
 .instant-search__result
 {
-    display: block;
+    display: inline-flex;
     color: white;
     text-decoration: none;
     padding: 0;
     font-size: 0.8em;
     cursor: pointer;
     background: #0d0d0d;
+    width: fit-content;
+    
 }
 .instant-search__result:hover
 {
@@ -146,67 +147,85 @@
 .instant-search__thumbnail-icon > img
 {
     padding: 0 15px 0 0;
-    max-width: 75px;
-    max-height: 150px;
+    max-width: 80px;
+    height:126px;
+    float: left;
     
 }
+.instant-search__synopsis
+{
+    position: relative;
+    top: 30px;
+    right: 125px;
+    padding: 0 10px 0 0;
+}
+
+
 .instant-search__title-username
 {
-    font-size: 1.5em;
+    height: 20px;
+    width: 150px;
+    font-size: 1.3em;
     font-weight: bold;
-    text-align: left;
+    
     
 }
+
 .instant-search__synopsis-header,
 .instant-search__average-score-header,
 .instant-search__user-score-header
 {
     
     line-height: 1.5;
-    margin: 8px 0;
+    margin: 0;
     font-weight: bold;
     
+    
 }
-.instant-search__average-score-header,
-.instant-search__average-score-value,
-.instant-search__user-score-header,
-.instant-search__user-score-value
+.instant-search__scores
 {
     text-align: right;
-    padding: 0 10px 0 0;
+    margin: 0;
+    padding: 0;
+    
 }
+
 .instant-search__synopsis-body
 {
     font-size: 0.7em;
     line-height: 1;
+    width: 200px;
+    margin: 0;
 }
 .instant-search__average-score-value,
 .instant-search__user-score-value
 {
-    padding: 0 25px 0 0;
+    padding: 0 10px 0 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
-.instant-search__user-score-value
-{
-    padding: 0 38px 0 0;
-}
+
 .instant-search__title-username,
-.instant-search__synopsis-header,
-.instant-search__synopsis-body
+.instant-search__synopsis
 {
     text-align: left;
+}
+
+
+.instant-search__average-score-header,
+.instant-search__user-score-header
+{
+    padding: 0 10px 0 0;
+}
+/* .instant-search__genre-list
+{
+    font-size: .7em;
+    width: fit-content;
     display: inline-block;
+    position: relative;
+    top: 70px;
+    right: 300px;
 }
-.instant-search__genre-header,
-.instant-search__genre-list
-{
-    display: inline-block;
-}
-.instant-search__genre-list
-{
-    font-size: 0.7em;
-}
-.instant-search__title-container,
-.instant-search__rating-container
-{
-    
-}
+     */
+
+
