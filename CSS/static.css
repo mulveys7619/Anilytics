@@ -1,0 +1,12 @@
+@import "nav-bar.css";
+@import "scroll-to-top.css";
+@import "instant-search.css";
+
+/*Styling for the overall page*/
+body {
+    margin: 0;
+    
+    
+    /*Changes color for the main background of the page*/
+    background: #222;
+}
