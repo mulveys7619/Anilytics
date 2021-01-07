@@ -12,20 +12,23 @@
 .carousel-indicators
 {
     position: absolute;
-    display: inline-block;
+}
+.carousel-indicators > li
+{
+    position: relative;
+    display: inline;
 }
 
 .top-weekly-series__series
 {
     position: absolute;
-    left: 20px;
-    bottom: 350px;
+    
     
 }
 
 .top-weekly-series__series > img
 {
-    position: absolute;
+    position: relative;
     border-radius: 10px;
     width: 240px;
     height: 340px;
