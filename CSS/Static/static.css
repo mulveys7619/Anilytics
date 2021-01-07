@@ -1,9 +1,11 @@
 @import "nav-bar.css";
 @import "scroll-to-top.css";
 @import "instant-search.css";
+@import "login.css";
 
 /*Styling for the overall page*/
 body {
+
     margin: 0;
     
     

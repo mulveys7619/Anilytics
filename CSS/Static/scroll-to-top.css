@@ -1,7 +1,7 @@
 /* Scroll to top button */
 #btnScrollToTop
 {
-    visibility: visible;
+    visibility: hidden;
     position:fixed;
     right: 80px;
     bottom: 40px;

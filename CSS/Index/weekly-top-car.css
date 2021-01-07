@@ -1,0 +1,32 @@
+
+.top-weekly-series__container
+{
+    position: relative;
+    background: rgba(0, 0, 0, 0.582);
+    border-radius: 10px;
+    top: 200px;
+    left: 100px;
+    height: 400px;
+    width: 1000px;
+}
+.carousel-indicators
+{
+    position: absolute;
+    display: inline-block;
+}
+
+.top-weekly-series__series
+{
+    position: absolute;
+    left: 20px;
+    bottom: 350px;
+    
+}
+
+.top-weekly-series__series > img
+{
+    position: absolute;
+    border-radius: 10px;
+    width: 240px;
+    height: 340px;
+}

@@ -1,0 +1,12 @@
+.login-signup
+{
+    position: absolute;
+}
+.login-signup__acc-list
+{
+    position: relative;
+    left: 1250px;
+    bottom: 97px;
+    text-transform: capitalize;
+    text-decoration: none;
+}

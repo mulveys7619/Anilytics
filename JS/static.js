@@ -27,15 +27,7 @@ btnScrollToTop.addEventListener("click", function(){toTop()});
 
 
 
-// Expand search bar on search icon click
-const searchBtn = document.getElementById("#search-icon-btn");
 
-function expandInputField()
-{
-  document.getElementById("#search-input-container").style.width = "450px"
-  document.getElementById("#search-input-area").style.width = "450px"
-}
-searchBtn.addEventListener("click",function(){expandInputField()})
 
 
 
