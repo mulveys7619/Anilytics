@@ -1,13 +1,15 @@
 
 .top-weekly-series__container
 {
-    position: relative;
+    position: absolute;
     background: rgba(0, 0, 0, 0.582);
     border-radius: 10px;
     top: 200px;
     left: 100px;
     height: 400px;
-    width: 1000px;
+    width: 1200px;
+    overflow: hidden;
+    
 }
 .carousel-indicators
 {
@@ -16,14 +18,15 @@
 .carousel-indicators > li
 {
     position: relative;
-    display: inline;
+    
 }
 
 .top-weekly-series__series
 {
-    position: absolute;
-    
-    
+    position: relative;
+    width: 240px;
+    height: 340px;
+    display:flexbox ;
 }
 
 .top-weekly-series__series > img
@@ -32,4 +35,55 @@
     border-radius: 10px;
     width: 240px;
     height: 340px;
+    
+}
+.carousel-control
+{
+    position: absolute;
+    
+}
+.top-weekly__right
+{
+    position: relative;
+    float: right;
+}
+.top-weekly__right-container
+{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    left: 1155px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: rgba(0, 0, 0, 0.719);
+    vertical-align: middle;
+
+}
+.top-weekly__left
+{
+    position: absolute;
+    
+    
+}
+.top-weekly__left-container
+{
+    position: relative;
+    height: 45px;
+    width: 45px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: rgba(0, 0, 0, 0.719);
+    vertical-align: middle;
+    
+    
+        
+    
+}
+.top-weekly__left-icon
+{
+    position: absolute;
+    font-size: 48px;
+    color: white;
+    left: -23px;
+    top: -3px;    
 }
